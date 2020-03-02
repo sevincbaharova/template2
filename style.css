@@ -1,0 +1,51 @@
+section {
+  height: 90em;
+  width: 85em;
+  background: #ada996;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#eaeaea), color-stop(#dbdbdb), color-stop(#f2f2f2), to(#ada996));
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section .list {
+  background: #abbaab;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#abbaab));
+  background: linear-gradient(to right, #ffffff, #abbaab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: -webkit-sticky;
+  position: sticky;
+  border: 1px solid pink;
+  text-align: center;
+  list-style-type: none;
+  width: 85em;
+  height: 3em;
+  word-spacing: 250px;
+  padding-top: 30px;
+  font-family: 'Pacifico';
+  font-size: medium;
+}
+
+section .flex {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85em;
+  height: 15em;
+}
+/*# sourceMappingURL=style.css.map */
+
+section .flex2 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
